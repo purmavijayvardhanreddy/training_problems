@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <div>
+      <center>
+        <h1>Sign Up</h1>
+      </center>
+    </div>
+    <div style="margin-top: 5%; text-align: center">
+      <div style="margin-top: 20px; font-size: larger">
+        <label for="usr">Username</label> <br />
+        <input
+          id="usr"
+          type="text"
+          placeholder="Username"
+          required
+          style="width: 25%; padding: 6px"
+        />
+      </div>
+      <div style="margin-top: 20px; font-size: larger">
+        <label for="pass">Enter-Password</label> <br />
+        <input
+          id="pass"
+          type="password"
+          placeholder="Password"
+          required
+          style="width: 25%; padding: 5px"
+        />
+      </div>
+      <div style="margin-top: 20px; font-size: larger">
+        <label for="pass">Confirm-Password</label> <br />
+        <input
+          id="pass"
+          type="password"
+          placeholder="Password"
+          required
+          style="width: 25%; padding: 5px"
+        />
+      </div>
+      <div style="margin-top: 20px; font-size: larger">
+        <label for="mail">E-mail</label> <br />
+        <input
+          id="mail"
+          type="mail"
+          placeholder="Enter-Mail"
+          required
+          style="width: 25%; padding: 5px"
+        />
+      </div>
+      <div style="margin-top: 20px; font-size: larger">
+        <label for="num">Mobile</label> <br />
+        <input
+          id="num"
+          type="tel"
+          placeholder="Mobile"
+          required
+          style="width: 25%; padding: 5px"
+        />
+      </div>
+      <div style="margin-top: 20px; font-size: larger">
+        <label for="gen">Gender</label> <br />
+        <select id="d=gen" name="gender" style="width: 8%; padding: 3px">
+          <option value="">--select--</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+      </div>
+      <div style="margin-top: 20px; font-size: larger">
+        <label for="dob">DOB</label> <br />
+        <input
+          id="dob"
+          type="date"
+          placeholder="DOB"
+          required
+          style="width: 10%; padding: 5px"
+        />
+      </div>
+      <div style="margin-top: 20px; font-size: larger">
+        <label for="add">Address</label> <br />
+        <textarea name="address" id="add" cols="50" rows="5"></textarea>
+      </div>
+      <div style="margin-top: 20px; font-size: larger">
+        <label for="prf">Aadhar </label>
+        <input id="prf" type="file" required />
+      </div>
+      <div style="margin-top: 20px">
+        <input
+          id="sub"
+          type="submit"
+          style="
+            transition: ease-in-out;
+            width: 7%;
+            padding: 5px;
+            border-radius: 10px;
+            border-style: groove;
+            border-color: aqua;
+          "
+        />
+      </div>
+
+      <!-- <input type="text" x-webkit-speech/> -->
+    </div>
+  </body>
+</html>
